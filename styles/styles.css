@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  max-width: 600px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+strong {
+  background-color:#ffec4663;
+}
+
+p {
+  margin:5px;
+}
+
+h1, h2, h3, h4, h5, h6, a, a:visited {
+  color: #545555;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 10px 0px 0px 0px;
+}
+
+a, a:visited {
+  /* Remove underline from links */
+  text-decoration: none;
+  color: #7f91df;
+}
+
+a:hover {
+  /* Hovering over link applies different color and highlights it */
+  color: #5b72d6;
+  text-decoration: underline;
+}
+
+li {
+  background-size: 22px;
+  list-style-position: outside;
+  padding: 0px 0px 0px 20px;
+  }
+
+/* Replace bullet points with cupcake image 
+  background: url('../images/cupcake-bullet.png') no-repeat left center;
+  list-style: none; */
+
+
+
+/* Replace bullet points with cupcake image
+  background: url('../images/chainlink.png') no-repeat;
+  list-style: none; */
+
+img {
+  border:#5b71d649 5px solid;
+  border-radius: 10px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 600px;
+  text-align: center;
+}
+
+nav {
+  border-bottom: 1px solid #bbb;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+/* Color palette (from Coolors)
+https://coolors.co/91a6ff-ff88dc-faff7f-ffffff-ff5154
+--vista-blue: #91a6ffff;
+--persian-pink: #ff88dcff;
+--icterine: #faff7fff;
+--white: #ffffffff;
+--bittersweet: #ff5154ff;
+*/
