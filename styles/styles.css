@@ -36,7 +36,7 @@ a, a:visited {
 }
 
 a:hover {
-  /* Hovering over link applies different color and highlights it */
+  /* Hovering over link applies different color and underlines it */
   color: #5b72d6;
   text-decoration: underline;
 }
@@ -86,6 +86,7 @@ nav {
 
 .crumb {
   display: inline-block;
+  padding: 0px;
 }
 
 .crumb a::after {
